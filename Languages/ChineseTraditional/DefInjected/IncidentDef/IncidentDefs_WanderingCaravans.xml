@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <WanderingCaravanSpawned.label>流浪商隊抵達</WanderingCaravanSpawned.label>
+  <WanderingCaravanSpawned.letterText>您的殖民者在遠處發現一支流浪的{0}。 這些{0}是另一個派系走丟的裝貨馱獸,似乎裝了一些有價值的商品。 可能會有更多流浪的{0}跟隨在後.\n\n無論是殺死或是馴服牠們都可以獲得那些商品。</WanderingCaravanSpawned.letterText>
+  <WanderingCaravanSpawned.letterLabel>發現流浪商隊</WanderingCaravanSpawned.letterLabel>
+
+  <WanderingCaravanChase.label>狩獵流浪商隊</WanderingCaravanChase.label>
+  <WanderingCaravanReturnDemand.label>流浪商隊歸還請求</WanderingCaravanReturnDemand.label>
+
+
+</LanguageData>
