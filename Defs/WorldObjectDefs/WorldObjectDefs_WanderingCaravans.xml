@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <WorldObjectDef>
+        <defName>WanderingCaravanEncounter</defName>
+        <label>wandering caravan encounter</label>
+        <description>A wandering caravan encounter.</description>
+        <worldObjectClass>WanderingCaravans.WanderingCaravanEncounterField</worldObjectClass>
+        <texture>World/WorldObjects/Expanding/Sites/Nothing</texture>
+        <isTempIncidentMapOwner>true</isTempIncidentMapOwner>
+        <IncidentTargetTags>
+            <li>Map_Misc</li>
+        </IncidentTargetTags>
+        <comps>
+            <li Class="WorldObjectCompProperties_FormCaravan" />
+            <li Class="WorldObjectCompProperties_TimedForcedExit" />
+        </comps>
+    </WorldObjectDef>
+</Defs>

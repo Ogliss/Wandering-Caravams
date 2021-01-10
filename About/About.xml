@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Wandering Caravans</name>
+	<author>general223 Updated by Ogliss</author>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+		<li>1.2</li>
+	</supportedVersions>
+	<packageId>Ogliss.g223.wanderingcaravans</packageId>
+	<description>Update of general223's Wandering Caravans mod for RimWorld 1.2
+	Adds the off-chance of wandering caravans that have been seperated from their trade caravan appearing near your colony, with potentially valuable inventories!</description>
+</ModMetaData>

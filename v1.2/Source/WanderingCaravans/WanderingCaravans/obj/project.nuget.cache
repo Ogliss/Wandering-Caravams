@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4vgsicxaurQBeNrvurTQzdRijZ2aTxNiHBG2nUwrpeU7sf9Q3Tg38bQ0UdYxLUdtHdUN/es1vz9uWJJQzfpj1g==",
+  "success": true,
+  "projectFilePath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Wandering Caravans\\v1.2\\Source\\WanderingCaravans\\WanderingCaravans\\WanderingCaravans.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\krafs.rimworld.ref\\1.2.2753\\krafs.rimworld.ref.1.2.2753.nupkg.sha512"
+  ],
+  "logs": []
+}

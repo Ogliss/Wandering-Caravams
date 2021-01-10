@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <IncidentDef>
+        <defName>WanderingCaravanSpawned</defName>
+        <label>wandering caravan arrived</label>
+        <category>Misc</category>
+        <baseChance>0.75</baseChance>
+        <targetTags>
+            <li>Map_PlayerHome</li>
+            <li>Caravan</li>
+        </targetTags>
+        <workerClass>WanderingCaravans.IncidentWorker_SpawnWanderingCaravan</workerClass>
+        <letterText>Your colonists have spotted a wandering {0} in the distance. The {0} must be a seperated pack animal of another factions trading caravan, as it seems to be carrying containers that look like they could be filled with potentially valuable items. More {0}s may be following close behind.\n\nEither tame or kill it to capture its potentially valuable inventory.</letterText>
+        <letterLabel>Wandering caravan spotted</letterLabel>
+        <letterDef>PositiveEvent</letterDef>
+        <minRefireDays>10</minRefireDays>
+    </IncidentDef>
+
+    <IncidentDef>
+        <defName>WanderingCaravanChase</defName>
+        <label>wandering caravan chase</label>
+        <targetTags>
+            <li>Map_PlayerHome</li>
+        </targetTags>
+        <workerClass>WanderingCaravans.IncidentWorker_WanderingCaravanChased</workerClass>
+        <baseChance>0.5</baseChance>
+        <category>ThreatBig</category>
+        <pointsScaleable>true</pointsScaleable>
+        <minRefireDays>15</minRefireDays>
+    </IncidentDef>
+    
+    <IncidentDef>
+        <defName>WanderingCaravanReturnDemand</defName>
+        <label>wandering caravan return demand</label>
+        <targetTags>
+            <li>Map_PlayerHome</li>
+        </targetTags>
+        <workerClass>WanderingCaravans.IncidentWorker_WanderingCaravanReturnDemand</workerClass>
+        <baseChance>0.25</baseChance>
+        <category>ThreatSmall</category>
+        <pointsScaleable>true</pointsScaleable>
+        <minRefireDays>30</minRefireDays>
+    </IncidentDef>
+</Defs>

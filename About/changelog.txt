@@ -1,0 +1,53 @@
+---Changelog---
+
+v2.0:
+- Mod re-released
+
+v2.1:
+- Completely reworked the inventory generation system for the wandering caravans:
+  - Entire base inventory generation system is now the vanilla trading caravan inventory generation system.
+  - Wandering Caravans can no longer spawn with items that have a short fresh lifespan, and items that don't but can still rot have their fresh lifespans greatly reduced by a random modifier.
+- Wandering caravans are now much easier to tame, which makes sense as they would have already been tamed before.
+
+v2.2:
+- Colonists now unload a wandering caravans inventory upon it being tamed.
+- Added new wandering caravan related incidents:
+  - Wandering caravan chased - a wandering caravan with a potentially valuable inventory is being chased down by a hostile faction; you can defend the caravan by fighting off the hunters to gain access to the caravans inventory, or you can just let them have it.
+  - Wandering caravan return demand - the faction that a nearby wandering caravan belongs to has come to return what is rightfully theirs; you can let the group retrieve it, or you can kill/tame the caravan to claim its potentially valuable inventory, although the retrieving faction will not appreciate that!
+
+v2.2.1:
+- Updated to Alpha 18
+- Implemented slight changes to the caravan inventory generation system.
+
+v2.3:
+- Modified the logistics behind the wandering caravans - wandering caravans no longer have their own race, which solves some mod incompatibilities.
+- Any pack animal can now be a wandering caravan, not just Mufallos and Dromedarys (including modded animals).
+- Wandering caravans are now spawned by an incident, which can occur on home maps or while travelling in a caravan. Also, you will now be notified whenever wandering caravans are spawned.
+- Wandering caravans now spawn in a group size identical to their native animal group size.
+
+v2.3.1:
+- Added a small hotfix that was causing the wandering caravan chase incident to spawn an animal without an inventory.
+
+v2.3.2:
+- Allows wandering caravans to be generated with inventories based off of modded non-orbital trader kinds.
+- Re-added the "jump to location" option for wandering caravan spawn notification letters.
+
+v2.3.3:
+- Modified the spawn range of wandering caravans that have base animals which do not spawn wildly.
+
+v2.3.4:
+- Balanced all the wandering caravan incident frequencies by slightly reducing them and adding minimum refire days, due to player reports of the incident being fired too often.
+
+v2.3.5:
+- Updated to Beta 19.
+
+v2.4.0:
+- Updated to 1.0.
+- Modified the inventory generation system in order to further balance the mod; inventories are now less diverse, high market value inventories are rarer, and foods much less plentiful.
+- Wandering caravans now only spawn when the maps eco system isn't full, so players can't use the caravans as a cheat to get extra meat.
+
+v2.4.1:
+- Modified the inventory generation system to make the caravans more balanced
+
+v2.4.2:
+- Updated to Rimworld v1.1
