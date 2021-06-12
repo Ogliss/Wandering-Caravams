@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+	
+	<WanderingCaravan.CaravanChased_OptionTitle>Wandering caravan chased to [0]</WanderingCaravan.CaravanChased_OptionTitle>
+	<WanderingCaravan.CaravanChased_OptionText>A group of {0} from {1} can be seen in the distance, and are chasing down a trade caravan carrying a potentially valuable inventory.\n\nYou can either defend the caravan from the {0} and obtain its inventory or let them have it.\n\nBe warned - if you accept, you'll have to fight off the {0} on its tail.</WanderingCaravan.CaravanChased_OptionText>>
+	<WanderingCaravan.CaravanChased_OptionDefend>Defend the caravan</WanderingCaravan.CaravanChased_OptionDefend>
+	<WanderingCaravan.CaravanChased_OptionReject>Let the {0} have it</WanderingCaravan.CaravanChased_OptionReject>
+	<WanderingCaravan.CaravanChased_Rejected>The {0} have almost caught up to the caravan and will be able to obtain its potentially valuable items.</WanderingCaravan.CaravanChased_Rejected>
+	
+	<WanderingCaravan.WanderingCaravan_Title>Wandering {0} spotted</WanderingCaravan.WanderingCaravan_Title>
+	<WanderingCaravan.WanderingCaravan_Spotted>A wandering {0} has been spotted in the distance by {1}, with more wandering caravans possible following it.\n\nYou can ignore them, or you can tame or kill them to obtain their potentially valuable inventory.</WanderingCaravan.WanderingCaravan_Spotted>
+	<WanderingCaravan.WanderingCaravan_Accept>Go and claim their inventory</WanderingCaravan.WanderingCaravan_Accept>
+	<WanderingCaravan.WanderingCaravan_Accepted>You have {0} to claim the wandering {1}s inventor{2} before the caravan is reformed.</WanderingCaravan.WanderingCaravan_Accepted>
+	<WanderingCaravan.WanderingCaravan_Reject>Ignore them and continue</WanderingCaravan.WanderingCaravan_Reject>
+	
+	<WanderingCaravan.CaravanReturnDemand_OptionTitle>Wandering Caravan Retrieval</WanderingCaravan.CaravanReturnDemand_OptionTitle>
+	<WanderingCaravan.CaravanReturnDemand_OptionText>{0} from {1} have claimed ownership of a neaby wandering trade caravan and have come to retrieve it.\n\nYou can let the {2} retrieve the caravan, or you can kill, tame or fight the {2} to make sure the wandering caravan stays near your colony so you can obtain its potentially valuable inventory!\n\nBe warned - if you kill or tame the wandering caravan, {1} will be angered.</WanderingCaravan.CaravanReturnDemand_OptionText>
+	<WanderingCaravan.CaravanReturnDemand_Fail>The {0} where unable to retrieve their wandering caravan. Faction relation: -5</WanderingCaravan.CaravanReturnDemand_Fail>
+
+</LanguageData>

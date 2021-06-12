@@ -13,10 +13,8 @@ namespace WanderingCaravans
             {
                 return false;
             }
-            DiaNode descDiaNode = new DiaNode($"A group of {parms.faction.def.pawnsPlural} from {parms.faction.Name} can be seen in the distance, and are chasing down a "
-                + $"trade caravan carrying a potentially valuable inventory.\n\nYou can either defend the caravan from the {parms.faction.def.pawnsPlural} and obtain its "
-                + $"inventory or let them have it.\n\nBe warned - if you accept, you'll have to fight off the {parms.faction.def.pawnsPlural} on its tail.");
-            descDiaNode.options.Add(new DiaOption("Defend the caravan")
+            DiaNode descDiaNode = new DiaNode($"WanderingCaravan.CaravanChased_OptionText".Translate(parms.faction.def.pawnsPlural, parms.faction.Name));
+            descDiaNode.options.Add(new DiaOption("WanderingCaravan.CaravanChased_OptionDefend".Translate())
             {
                 action = delegate
                 {
@@ -36,16 +34,16 @@ namespace WanderingCaravans
                 },
                 resolveTree = true
             });
-            DiaNode rejectDiaNode = new DiaNode("The hunters have almost caught up to the caravan and will be able to obtain its potentially valuable items.");
+            DiaNode rejectDiaNode = new DiaNode("WanderingCaravan.CaravanChased_Rejected".Translate(parms.faction.def.pawnsPlural));
             rejectDiaNode.options.Add(new DiaOption("OK")
             {
                 resolveTree = true
             });
-            descDiaNode.options.Add(new DiaOption($"Let the {parms.faction.def.pawnsPlural} have it")
+            descDiaNode.options.Add(new DiaOption($"WanderingCaravan.CaravanChased_OptionReject".Translate(parms.faction.def.pawnsPlural))
             {
                 link = rejectDiaNode
             });
-            Find.WindowStack.Add(new Dialog_NodeTree(descDiaNode, true, true, "Wandering caravan chased to " + map.info.parent.Label));
+            Find.WindowStack.Add(new Dialog_NodeTree(descDiaNode, true, true, "WanderingCaravan.CaravanChased_OptionTitle".Translate(map.info.parent.Label)));
             return true;
         }
 

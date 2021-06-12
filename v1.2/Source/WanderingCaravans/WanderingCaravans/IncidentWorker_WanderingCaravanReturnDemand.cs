@@ -20,9 +20,7 @@ namespace WanderingCaravans
             }
             IEnumerable<Pawn> retrieverPawns = this.SpawnPawns(IncidentParmsUtility.GetDefaultPawnGroupMakerParms(PawnGroupKindDefOf.Combat, parms, true), parms.spawnCenter, map);
             LordMaker.MakeNewLord(parms.faction, new LordJob_RetrieveWanderingCaravan(targetCaravan), map, retrieverPawns);
-            Find.LetterStack.ReceiveLetter("Wandering Caravan Retrieval", $"{parms.faction.def.pawnsPlural.CapitalizeFirst()} from {parms.faction.Name} have claimed ownership of a neaby wandering trade caravan and have come to retrieve it.\n\n"
-                + $"You can let the {parms.faction.def.pawnsPlural} retrieve the caravan, or you can kill, tame or fight the {parms.faction.def.pawnsPlural} to make sure the wandering caravan stays near "
-                + $"your colony so you can obtain its potentially valuable inventory!\n\nBe warned - if you kill or tame the wandering caravan, {parms.faction.Name} will be angered.", LetterDefOf.NeutralEvent, pawns);
+            Find.LetterStack.ReceiveLetter("WanderingCaravan.CaravanReturnDemand_OptionTitle".Translate(), $"WanderingCaravan.CaravanReturnDemand_OptionText".Translate(parms.faction.def.pawnsPlural.CapitalizeFirst(),parms.faction.Name, parms.faction.def.pawnsPlural), LetterDefOf.NeutralEvent, pawns);
             return true;
         }
 

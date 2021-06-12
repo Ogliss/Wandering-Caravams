@@ -66,29 +66,27 @@ namespace WanderingCaravans
             MultipleCaravansCellFinder.FindStartingCellsFor2Groups(map, out IntVec3 caravanSpot, out IntVec3 wanderingCaravansSpot);
             IEnumerable<Pawn> wanderingCaravans = this.GenerateWanderingCaravans(wanderingCaravanDef);
             Pawn infoPawn = wanderingCaravans.First();
-            DiaNode diaNode = new DiaNode($"A wandering {infoPawn.LabelCap} has been spotted in the distance by {caravan.LabelCap}, with more wandering caravans possible following it.\n\nYou can "
-                + $"ignore them, or you can tame or kill them to obtain their potentially valuable inventory.")
+            DiaNode diaNode = new DiaNode($"WanderingCaravan.WanderingCaravan_Spotted".Translate(infoPawn.LabelCap, caravan.LabelCap))
             {
                 options =
                 {
-                    new DiaOption("Go and claim their inventory")
+                    new DiaOption("WanderingCaravan.WanderingCaravan_Accept")
                     {
                         action = delegate
                         {
                             string plural = wanderingCaravans.Count() > 1 ? "ies" : "y";
                             CaravanEnterMapUtility.Enter(caravan, map, pawn => CellFinder.RandomSpawnCellForPawnNear(caravanSpot, map));
-                            Messages.Message($"You have {TimedForcedExit.GetForceExitAndRemoveMapCountdownTimeLeftString(60000)} to claim the wandering {infoPawn.LabelCap}s inventor{plural} before the "
-                                + $"caravan is reformed.", infoPawn, MessageTypeDefOf.PositiveEvent);
+                            Messages.Message($"WanderingCaravan.WanderingCaravan_Accepted".Translate(TimedForcedExit.GetForceExitAndRemoveMapCountdownTimeLeftString(60000), infoPawn.LabelCap, plural), infoPawn, MessageTypeDefOf.PositiveEvent);
                             ((WorldObject)map.ParentHolder).GetComponent<TimedForcedExit>().StartForceExitAndRemoveMapCountdown();
                         },
                         resolveTree = true
-                    }, new DiaOption("Ignore them and continue")
+                    }, new DiaOption("WanderingCaravan.WanderingCaravan_Reject".Translate())
                     {
                         resolveTree = true
                     }
                 }
             };
-            Find.WindowStack.Add(new Dialog_NodeTree(diaNode, true, false, $"Wandering {infoPawn.LabelCap} spotted"));
+            Find.WindowStack.Add(new Dialog_NodeTree(diaNode, true, false, $"WanderingCaravan.WanderingCaravan_Title".Translate(infoPawn.LabelCap)));
             this.SpawnPawns(wanderingCaravans, map, wanderingCaravansSpot);
             return true;
         }

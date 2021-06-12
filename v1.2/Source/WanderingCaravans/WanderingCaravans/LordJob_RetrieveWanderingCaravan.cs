@@ -93,7 +93,7 @@ namespace WanderingCaravans
         {
             Faction lordFaction = this.lord.faction;
             Faction.OfPlayer.TryAffectGoodwillWith(lordFaction, -5);
-            Messages.Message($"The {lordFaction.def.pawnsPlural} where unable to retrieve their wandering caravan. Faction relation: -5", MessageTypeDefOf.NegativeEvent);
+            Messages.Message($"WanderingCaravan.CaravanReturnDemand_Fail".Translate(lordFaction.def.pawnsPlural), MessageTypeDefOf.NegativeEvent);
         }
     }
 }

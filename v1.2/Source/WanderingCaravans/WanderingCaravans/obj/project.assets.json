@@ -447,11 +447,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Wandering Caravans\\v1.2\\Source\\WanderingCaravans\\WanderingCaravans\\WanderingCaravans.csproj",
+      "projectUniqueName": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Wandering-Caravams\\v1.2\\Source\\WanderingCaravans\\WanderingCaravans\\WanderingCaravans.csproj",
       "projectName": "WanderingCaravans",
-      "projectPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Wandering Caravans\\v1.2\\Source\\WanderingCaravans\\WanderingCaravans\\WanderingCaravans.csproj",
+      "projectPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Wandering-Caravams\\v1.2\\Source\\WanderingCaravans\\WanderingCaravans\\WanderingCaravans.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Wandering Caravans\\v1.2\\Source\\WanderingCaravans\\WanderingCaravans\\obj\\",
+      "outputPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Wandering-Caravams\\v1.2\\Source\\WanderingCaravans\\WanderingCaravans\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

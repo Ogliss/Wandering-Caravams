@@ -33,14 +33,6 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Xml" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="IncidentWorker_SpawnWanderingCaravan.cs" />
     <Compile Include="IncidentWorker_WanderingCaravanChased.cs" />
     <Compile Include="IncidentWorker_WanderingCaravanReturnDemand.cs" />
