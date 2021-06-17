@@ -1,0 +1,19 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\WanderingCaravans\Assemblies\WanderingCaravans.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\WanderingCaravans\Source\WanderingCaravans\WanderingCaravans\obj\Debug\WanderingCaravans.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\WanderingCaravans\Source\WanderingCaravans\WanderingCaravans\obj\Debug\WanderingCaravans.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\WanderingCaravans\Source\WanderingCaravans\WanderingCaravans\obj\Debug\WanderingCaravans.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Wandering Caravans\v1.2\Assemblies\WanderingCaravans.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Wandering Caravans\v1.2\Source\WanderingCaravans\WanderingCaravans\obj\Debug\WanderingCaravans.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Wandering Caravans\v1.2\Source\WanderingCaravans\WanderingCaravans\obj\Debug\WanderingCaravans.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Wandering Caravans\v1.2\Source\WanderingCaravans\WanderingCaravans\obj\Debug\WanderingCaravans.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Wandering-Caravams\v1.2\Assemblies\WanderingCaravans.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Wandering-Caravams\v1.2\Source\WanderingCaravans\WanderingCaravans\obj\Debug\WanderingCaravans.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Wandering-Caravams\v1.2\Source\WanderingCaravans\WanderingCaravans\obj\Debug\WanderingCaravans.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Wandering-Caravams\v1.2\Source\WanderingCaravans\WanderingCaravans\obj\Debug\WanderingCaravans.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Wandering-Caravams\v1.3\Source\WanderingCaravans\WanderingCaravans\obj\Debug\WanderingCaravans.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Wandering-Caravams\v1.3\Source\WanderingCaravans\WanderingCaravans\obj\Debug\WanderingCaravans.AssemblyInfoInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Wandering-Caravams\v1.3\Source\WanderingCaravans\WanderingCaravans\obj\Debug\WanderingCaravans.AssemblyInfo.cs
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Wandering-Caravams\v1.3\Source\WanderingCaravans\WanderingCaravans\obj\Debug\WanderingCaravans.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Wandering-Caravams\v1.3\Source\WanderingCaravans\WanderingCaravans\obj\Debug\WanderingCaravans.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Wandering-Caravams\v1.3\Assemblies\WanderingCaravans.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Wandering-Caravams\v1.3\Source\WanderingCaravans\WanderingCaravans\obj\Debug\WanderingCaravans.csproj.CopyComplete
