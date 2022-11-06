@@ -1,9 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Configuration>
+  <Title>Wandering Caravans [Adopted]</Title>
   <Excluded>
-    <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Wandering-Caravams\Source</exclude>
-    <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Wandering-Caravams\v1.2\Source</exclude>
-    <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Wandering-Caravams\v1.2\v1.1</exclude>
-    <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Wandering-Caravams\v1.3\Source</exclude>
+    <exclude>.git</exclude>
+    <exclude>Source</exclude>
+    <exclude>v1.2\Source</exclude>
+    <exclude>v1.3\Source</exclude>
+    <exclude>v1.4\Source</exclude>
   </Excluded>
 </Configuration>
